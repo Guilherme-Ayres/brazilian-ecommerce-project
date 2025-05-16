@@ -1,7 +1,3 @@
-import pandas as pd
-
-dfs = {}
-
 # --- Etapa de Preparação e Limpeza dos Dados ---
 # --- Conversão de Tipos de Dados ---
 
