@@ -1,9 +1,11 @@
+# Importando bibliotecas
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 import seaborn as sns
 import sqlite3
 
+# Definindo diretório e arquivos
 data_dir = './'
 
 csv_files = [
@@ -17,7 +19,7 @@ csv_files = [
     'olist_sellers_dataset.csv',
     'product_category_name_translation.csv'
 ]
-
+# Carregando os DataFrames
 dfs = {}
 
 for file in csv_files:

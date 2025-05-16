@@ -1,8 +1,12 @@
+# Importando bibliotecas
+
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 import seaborn as sns
 import sqlite3
+
+# Definindo diretório e arquivos
 
 data_dir = './'
 
@@ -18,6 +22,8 @@ csv_files = [
     'product_category_name_translation.csv'
 ]
 
+# Carregando os DataFrames
+
 dfs = {}
 
 for file in csv_files:
@@ -30,6 +36,7 @@ for file in csv_files:
         print(f"Erro: Arquivo '{file_path}' não encontrado. Certifique-se de que o diretório está correto.")
 
 # Primeira verificação de cada DataFrame
+
 for table_name, df in dfs.items():
     print(f"\n--- Explorando o DataFrame: {table_name} ---")
     print("\nPrimeiras 5 linhas:")
