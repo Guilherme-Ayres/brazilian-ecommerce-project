@@ -1,0 +1,2 @@
+olist.db filter=lfs diff=lfs merge=lfs -text
+analise_olist.ipynb filter=lfs diff=lfs merge=lfs -text
